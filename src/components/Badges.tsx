@@ -9,20 +9,20 @@ function Badges() {
           <div className="flex flex-col lg:flex-row justify-around mt-8 items-center">
             {/* Image will be on top in mobile view */}
             
-            
+            <a href="https://credly.com/badges/e3f0951c-2902-4aad-93fe-e98106faddd3">
+              <img
+                className="w-80 h-72 rounded-full mb-8 lg:mb-0"
+                src="https://ik.imagekit.io/candyjess/download%20(1).jpeg?updatedAt=1737475008949"
+                alt="CFE BADGE"
+              />
+            </a>
             <p className="lg:mt-0 text-center lg:text-center">
               The Certified Fraud Examiner (CFE) badge is a digital credential awarded by the Association of Certified <br /> 
               Fraud Examiners (ACFE) to individuals who have successfully completed the requirements to become a CFE. <br />
               The badge is a visible and verifiable recognition of the professional's expertise in fraud prevention, <br /> 
               detection, and investigation. Click the badge to verify or click <a className="text-blue-400" href="https://credly.com/badges/e3f0951c-2902-4aad-93fe-e98106faddd3">Here</a>
             </p>
-            <a href="https://credly.com/badges/e3f0951c-2902-4aad-93fe-e98106faddd3">
-              <img
-                className="w-64 h-60 rounded-full mb-8 lg:mb-0"
-                src="https://ik.imagekit.io/candyjess/download%20(1).jpeg?updatedAt=1737475008949"
-                alt="CFE BADGE"
-              />
-            </a>
+            
           </div>
         </div>
       </div>
