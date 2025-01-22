@@ -6,6 +6,7 @@ import Services from './components/Services';
 import ApplicationForm from './components/ApplicationForm';
 import Badges from './components/Badges'
 import About from './components/About'
+import ScrollToTop from './components/ScrollToTop';
 
 const services = [
   {
@@ -58,6 +59,7 @@ function App() {
         onClose={handleCloseForm}
         services={services}
       />
+      <ScrollToTop />
     </div>
   );
 }
