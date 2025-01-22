@@ -1,6 +1,10 @@
 import React, { useState } from 'react';
 
-const Navbar: React.FC = () => {
+interface NavbarProps {
+  onApplyClick: () => void;
+}
+
+const Navbar: React.FC<NavbarProps>  = ({onApplyClick}) => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   return (
@@ -27,7 +31,7 @@ const Navbar: React.FC = () => {
             <a href="#about" className='hover:text-blue-200 mt-2'>About</a>
             <a href="#badges" className='hover:text-blue-200 mt-2'>Badges</a>
             <a href="#services" className="hover:text-blue-200 mt-2">Services</a>
-            <button className="bg-blue-500 hover:bg-blue-700 px-4 py-2 rounded-md">
+            <button onClick={onApplyClick} className="bg-blue-500 hover:bg-blue-700 px-4 py-2 rounded-md">
               Start Application
             </button>
           </div>
@@ -38,7 +42,7 @@ const Navbar: React.FC = () => {
       <div 
         className={`${
           isMobileMenuOpen ? 'block' : 'hidden'
-        } fixed top-0 left-0 right-0 bottom-0 bg-white bg-opacity-60 z-50 flex justify-center items-center`}>
+        } fixed top-0 left-0 right-0 bottom-0 bg-white bg-opacity-80 z-50 flex justify-center items-center`}>
         <div className="flex flex-col space-y-4 text-center text-lg">
           {/* Close Button */}
           <button 
@@ -54,7 +58,7 @@ const Navbar: React.FC = () => {
           <a href="#services" className=" text-black hover:text-blue-900" onClick={() => setIsMobileMenuOpen(false)}>Services</a>
           <button
             className="bg-blue-500 hover:bg-blue-700 px-4 py-2 rounded-md"
-            onClick={() => setIsMobileMenuOpen(false)}
+            onClick={onApplyClick}
           >
             Start Application
           </button>
