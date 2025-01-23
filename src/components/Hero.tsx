@@ -16,7 +16,7 @@ const Hero: React.FC<HeroProps> = () => {
       id: 1,
       title: 'Professional Loss Adjusters & Fraud Examiners',
       subtitle:
-        'Led by Peter Langat, a Certified Fraud Examiner, ILAFE KENYA provides expert loss adjustment and fraud examination services across Kenya.',
+        'Led by Peter Mzungu Langat, a Certified Fraud Examiner, ILAFE KENYA provides expert loss adjustment and fraud examination services across Kenya.',
       image:
         'https://images.unsplash.com/photo-1450101499163-c8848c66ca85?auto=format&fit=crop&q=80',
     },
@@ -59,14 +59,6 @@ const Hero: React.FC<HeroProps> = () => {
                 {slide.title}
               </h1>
               <p className="mt-6 text-xl text-center ">{slide.subtitle}</p>
-              {/* <div className="mt-10">
-                <button
-                  onClick={onApplyClick}
-                  className="bg-blue-500 hover:bg-blue-700 px-8 py-3 rounded-md text-lg font-semibold"
-                >
-                  Apply Now
-                </button>
-              </div> */}
             </div>
             <div className="absolute inset-0 bg-gradient-to-t from-blue-900 via-transparent to-blue-900 opacity-50"></div>
           </SwiperSlide>

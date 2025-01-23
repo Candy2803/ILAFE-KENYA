@@ -39,12 +39,12 @@ function About() {
             />
             <p className="text-center text-sm">
               <i>
-                <span className="font-bold text-lg">Peter Mzungu </span><br /> CEO ILAFE KENYA, Fraud examiner, <br /> Motor assessor, Loss assessor
+                <span className="font-bold text-lg">Peter Mzungu Langat</span><br /> CEO ILAFE KENYA, Fraud examiner, <br /> Motor assessor, Loss assessor
               </i>
             </p>
           </div>
           <p className="mt-4 lg:-mt-10 lg:text-center text-center">
-            Peter Mzungu is a highly skilled professional specializing in fraud prevention and risk assessment. <br />
+            Peter Mzungu Langat is a highly skilled professional specializing in fraud prevention and risk assessment. <br />
             As a Certified Fraud Examiner (CFE), Peter brings expertise in detecting, investigating, and preventing <br />
             financial fraud. In addition to his fraud examination skills, he is an experienced Loss Assessor, adept <br />
             at evaluating the extent of damage and determining compensation in insurance claims. Peter also serves as <br />
