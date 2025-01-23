@@ -8,6 +8,7 @@ import Badges from './components/Badges'
 import About from './components/About'
 import ScrollToTop from './components/ScrollToTop';
 import Contact from './components/Contact';
+import { Footer } from './components/Footer';
 
 const services = [
   {
@@ -56,6 +57,7 @@ function App() {
       <Badges />
       <Services />
       <Contact />
+      <Footer />
       <ApplicationForm
         isOpen={isFormOpen}
         onClose={handleCloseForm}
