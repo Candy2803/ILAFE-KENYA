@@ -31,6 +31,7 @@ const Navbar: React.FC<NavbarProps>  = ({onApplyClick}) => {
             <a href="#about" className='hover:text-blue-200 mt-2'>About</a>
             <a href="#badges" className='hover:text-blue-200 mt-2'>Badges</a>
             <a href="#services" className="hover:text-blue-200 mt-2">Services</a>
+            <a href="#contact" className="hover:text-blue-200 mt-2">Contact</a>
             <button onClick={onApplyClick} className="bg-blue-500 hover:bg-blue-700 px-4 py-2 rounded-md">
               Start Application
             </button>
@@ -56,6 +57,7 @@ const Navbar: React.FC<NavbarProps>  = ({onApplyClick}) => {
           <a href="#about" className=" text-black hover:text-blue-900" onClick={() => setIsMobileMenuOpen(false)}>About</a>
           <a href="#badges" className="text-black hover:text-blue-900" onClick={() => setIsMobileMenuOpen(false)}>Badges</a>
           <a href="#services" className=" text-black hover:text-blue-900" onClick={() => setIsMobileMenuOpen(false)}>Services</a>
+          <a href="#contact" className=" text-black hover:text-blue-900" onClick={() => setIsMobileMenuOpen(false)}>Contact</a>
           <button
             className="bg-blue-500 hover:bg-blue-700 px-4 py-2 rounded-md"
             onClick={onApplyClick}
